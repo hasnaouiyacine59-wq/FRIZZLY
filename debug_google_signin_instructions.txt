@@ -1,0 +1,9 @@
+The 'Google Sign-In cancelled' message usually indicates that the user closed the sign-in prompt, or there's a configuration issue preventing successful completion.
+
+To debug this, please ensure the following:
+
+1.  **SHA-1 Fingerprint:** Double-check that the SHA-1 fingerprint (`60:CC:26:80:F9:0E:D8:86:7B:AC:A6:49:BC:D4:E6:E2:10:A4:BA:74`) is correctly added to your Firebase project settings under 'Project settings' -> 'Your apps' -> your Android app.
+2.  **Updated `google-services.json`:** Make sure you have downloaded the latest `google-services.json` file from your Firebase project settings *after* adding the SHA-1 fingerprint, and that it's placed in your `app/` directory.
+3.  **Web Client ID:** Confirm that the Web Client ID (`941997129015-4bepdu3uaguhm4lv1eurfqe40qmqp7hs.apps.googleusercontent.com`) is correctly set in `AuthViewModel.kt`. (I have already updated this for you).
+
+After verifying these points, please try to sign in again and provide the **full `logcat` output** from when you attempt the Google Sign-In. This will give us more specific error messages to pinpoint the problem.

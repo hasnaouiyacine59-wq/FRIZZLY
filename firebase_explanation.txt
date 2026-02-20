@@ -1,0 +1,5 @@
+The `google-services.json` configuration values are already accessible to Firebase SDKs because the `com.google.gms.google-services` plugin is correctly applied in both your project-level and app-level `build.gradle.kts` files, and the `google-services.json` file is in the `app/` directory.
+
+The issue with Google login is not related to the accessibility of these values. It is almost certainly due to the **Web Client ID** (OAuth 2.0 client ID) in `AuthViewModel.kt` being incorrect or missing. This ID is crucial for Google Sign-In with Firebase and is obtained from your Firebase project settings, not directly from `google-services.json`.
+
+I am still waiting for you to provide the correct Web Client ID so I can update `AuthViewModel.kt`.

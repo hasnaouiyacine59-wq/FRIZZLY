@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "941997129015",
+    "project_id": "frizzly-9a65f",
+    "storage_bucket": "frizzly-9a65f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941997129015:android:b1529d549db8fc9f006eb2",
+        "android_client_info": {
+          "package_name": "com.example.effrizly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "941997129015-4bepdu3uaguhm4lv1eurfqe40qmqp7hs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBapdwz0teYNBVRsJQVMpgETVPQiUx75j4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "941997129015-4bepdu3uaguhm4lv1eurfqe40qmqp7hs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

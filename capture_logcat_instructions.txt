@@ -1,0 +1,17 @@
+I cannot directly capture `logcat` from your system. You will need to capture it yourself and then paste the relevant output here.
+
+Here's how you can capture `logcat` from your terminal:
+
+1.  **Clear existing logcat:**
+    ```bash
+    adb logcat -c
+    ```
+2.  **Start capturing logcat:**
+    ```bash
+    adb logcat > logcat_output.txt
+    ```
+3.  **Reproduce the issue:** On your Android device, try to perform the Google Sign-In again until you see the "cancelled" message.
+4.  **Stop capturing logcat:** Press `Ctrl+C` in the terminal where `adb logcat` is running.
+5.  **Provide the output:** Open the `logcat_output.txt` file and paste its content here. Please try to include the logs from the moment you initiate the sign-in until it shows "cancelled".
+
+Alternatively, if you are using Android Studio, you can use the Logcat window within the IDE to filter and copy the relevant logs.

@@ -1,0 +1,52 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Helper functions
+    function isSignedIn() {
+      return request.auth != null;
+    }
+    
+    function isOwner(userId) {
+      return isSignedIn() && request.auth.uid == userId;
+    }
+    
+    // Users collection - users can only read/write their own data
+    match /users/{userId} {
+      allow read: if isOwner(userId);
+      allow create, update: if isOwner(userId);
+      allow delete: if false; // Prevent deletion
+    }
+    
+    // Orders collection - users can only access their own orders
+    match /orders/{orderId} {
+      allow read: if isSignedIn() && resource.data.userId == request.auth.uid;
+      allow create: if isSignedIn() && 
+                      request.resource.data.userId == request.auth.uid &&
+                      request.resource.data.keys().hasAll(['orderId', 'userId', 'totalAmount', 'status', 'timestamp']) &&
+                      request.resource.data.status == 'PENDING' &&
+                      request.resource.data.totalAmount is number &&
+                      request.resource.data.totalAmount > 0;
+      allow update: if false; // Only admin can update via backend
+      allow delete: if false; // Only admin can delete
+    }
+    
+    // Notifications collection - users can read their own notifications
+    match /notifications/{notificationId} {
+      allow read: if isSignedIn() && resource.data.userId == request.auth.uid;
+      allow update: if isSignedIn() && resource.data.userId == request.auth.uid; // Allow marking as read
+      allow create, delete: if false; // Only backend can create/delete
+    }
+    
+    // System collection - read-only for clients
+    match /system/{document} {
+      allow read: if isSignedIn();
+      allow write: if false; // Only backend can write
+    }
+    
+    // Deny all other access
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

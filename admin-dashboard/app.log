@@ -1,0 +1,37 @@
+2026-02-18 11:32:44,636 - app - INFO - 💾 Notification saved to Firestore for user orI6CDcLXHSfrZ5vkuwaSo2PktO2
+2026-02-18 11:32:44,795 - app - INFO - ✅ Notification sent to user orI6CDcLXHSfrZ5vkuwaSo2PktO2 for order ORD1: projects/frizzly-9a65f/messages/0:1771410764752829%28e4f5fc28e4f5fc
+2026-02-18 11:32:44,796 - app - INFO - Sent notification to user orI6CDcLXHSfrZ5vkuwaSo2PktO2 for order ORD1 status PENDING
+2026-02-18 11:50:36,187 - app - INFO - Refreshing driver cache.
+2026-02-18 11:50:38,500 - app - INFO - 💾 Notification saved to Firestore for user orI6CDcLXHSfrZ5vkuwaSo2PktO2
+2026-02-18 11:50:38,807 - app - INFO - ✅ Notification sent to user orI6CDcLXHSfrZ5vkuwaSo2PktO2 for order ORD6: projects/frizzly-9a65f/messages/0:1771411838777004%28e4f5fc28e4f5fc
+2026-02-18 11:50:38,808 - app - INFO - Sent notification to user orI6CDcLXHSfrZ5vkuwaSo2PktO2 for order ORD6 status CONFIRMED
+2026-02-18 11:51:10,258 - app - INFO - 💾 Notification saved to Firestore for user orI6CDcLXHSfrZ5vkuwaSo2PktO2
+2026-02-18 11:51:10,474 - app - INFO - ✅ Notification sent to user orI6CDcLXHSfrZ5vkuwaSo2PktO2 for order ORD4: projects/frizzly-9a65f/messages/0:1771411870418731%28e4f5fc28e4f5fc
+2026-02-18 11:51:10,474 - app - INFO - Sent notification to user orI6CDcLXHSfrZ5vkuwaSo2PktO2 for order ORD4 status CONFIRMED
+2026-02-18 11:51:13,701 - app - INFO - 💾 Notification saved to Firestore for user orI6CDcLXHSfrZ5vkuwaSo2PktO2
+2026-02-18 11:51:13,874 - app - INFO - ✅ Notification sent to user orI6CDcLXHSfrZ5vkuwaSo2PktO2 for order ORD4: projects/frizzly-9a65f/messages/0:1771411873812206%28e4f5fc28e4f5fc
+2026-02-18 11:51:13,875 - app - INFO - Sent notification to user orI6CDcLXHSfrZ5vkuwaSo2PktO2 for order ORD4 status PREPARING_ORDER
+2026-02-18 11:55:31,586 - app - INFO - Refreshing driver cache.
+2026-02-18 11:55:34,045 - app - INFO - 💾 Notification saved to Firestore for user orI6CDcLXHSfrZ5vkuwaSo2PktO2
+2026-02-18 11:55:34,325 - app - INFO - ✅ Notification sent to user orI6CDcLXHSfrZ5vkuwaSo2PktO2 for order ORD7: projects/frizzly-9a65f/messages/0:1771412134295900%28e4f5fc28e4f5fc
+2026-02-18 11:55:34,326 - app - INFO - Sent notification to user orI6CDcLXHSfrZ5vkuwaSo2PktO2 for order ORD7 status CONFIRMED
+2026-02-18 11:55:38,944 - app - INFO - 💾 Notification saved to Firestore for user orI6CDcLXHSfrZ5vkuwaSo2PktO2
+2026-02-18 11:55:39,096 - app - INFO - ✅ Notification sent to user orI6CDcLXHSfrZ5vkuwaSo2PktO2 for order ORD7: projects/frizzly-9a65f/messages/0:1771412139054191%28e4f5fc28e4f5fc
+2026-02-18 11:55:39,097 - app - INFO - Sent notification to user orI6CDcLXHSfrZ5vkuwaSo2PktO2 for order ORD7 status PREPARING_ORDER
+2026-02-18 12:00:08,386 - app - INFO - Refreshing driver cache.
+2026-02-18 12:00:12,009 - app - INFO - 💾 Notification saved to Firestore for user orI6CDcLXHSfrZ5vkuwaSo2PktO2
+2026-02-18 12:00:12,341 - app - INFO - ✅ Notification sent to user orI6CDcLXHSfrZ5vkuwaSo2PktO2 for order ORD7: projects/frizzly-9a65f/messages/0:1771412412289574%28e4f5fc28e4f5fc
+2026-02-18 12:00:12,342 - app - INFO - Sent notification to user orI6CDcLXHSfrZ5vkuwaSo2PktO2 for order ORD7 status PENDING
+2026-02-18 12:00:15,964 - app - INFO - 💾 Notification saved to Firestore for user orI6CDcLXHSfrZ5vkuwaSo2PktO2
+2026-02-18 12:00:16,099 - app - INFO - ✅ Notification sent to user orI6CDcLXHSfrZ5vkuwaSo2PktO2 for order ORD7: projects/frizzly-9a65f/messages/0:1771412416063154%28e4f5fc28e4f5fc
+2026-02-18 12:00:16,101 - app - INFO - Sent notification to user orI6CDcLXHSfrZ5vkuwaSo2PktO2 for order ORD7 status CONFIRMED
+2026-02-18 12:12:28,851 - app - INFO - Refreshing driver cache.
+2026-02-18 12:12:33,113 - app - INFO - 💾 Notification saved to Firestore for user orI6CDcLXHSfrZ5vkuwaSo2PktO2
+2026-02-18 12:12:33,494 - app - INFO - ✅ Notification sent to user orI6CDcLXHSfrZ5vkuwaSo2PktO2 for order ORD6: projects/frizzly-9a65f/messages/0:1771413153434378%28e4f5fc28e4f5fc
+2026-02-18 12:12:33,494 - app - INFO - Sent notification to user orI6CDcLXHSfrZ5vkuwaSo2PktO2 for order ORD6 status PENDING
+2026-02-18 12:12:52,207 - app - INFO - 💾 Notification saved to Firestore for user orI6CDcLXHSfrZ5vkuwaSo2PktO2
+2026-02-18 12:12:52,365 - app - INFO - ✅ Notification sent to user orI6CDcLXHSfrZ5vkuwaSo2PktO2 for order ORD7: projects/frizzly-9a65f/messages/0:1771413172309057%28e4f5fc28e4f5fc
+2026-02-18 12:12:52,365 - app - INFO - Sent notification to user orI6CDcLXHSfrZ5vkuwaSo2PktO2 for order ORD7 status PENDING
+2026-02-18 12:12:59,037 - app - INFO - 💾 Notification saved to Firestore for user orI6CDcLXHSfrZ5vkuwaSo2PktO2
+2026-02-18 12:12:59,190 - app - INFO - ✅ Notification sent to user orI6CDcLXHSfrZ5vkuwaSo2PktO2 for order ORD7: projects/frizzly-9a65f/messages/0:1771413179143880%28e4f5fc28e4f5fc
+2026-02-18 12:12:59,191 - app - INFO - Sent notification to user orI6CDcLXHSfrZ5vkuwaSo2PktO2 for order ORD7 status CONFIRMED

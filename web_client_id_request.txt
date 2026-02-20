@@ -1,0 +1,5 @@
+Great! Now that you've created the Firebase OAuth 2.0 Google client, you should have your **Web Client ID** (OAuth 2.0 client ID).
+
+Please provide this ID to me. It's the string that typically ends with `.apps.googleusercontent.com` and is found in your Firebase Console under 'Authentication' -> 'Sign-in method' -> 'Google' (in the 'Web SDK configuration' section).
+
+Once you provide it, I will update your `AuthViewModel.kt` file with the correct ID.
